@@ -5,6 +5,6 @@
 	$: resolvedRichText = renderRichText(blok.text);
 </script>
 
-<div use:storyblokEditable={blok} class="prose py-12">
+<div use:storyblokEditable={blok} class="prose py-12 mx-auto">
 	{@html resolvedRichText}
 </div>
