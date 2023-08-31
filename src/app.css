@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-5xl text-[#772D8B];
+    }
+    h2 {
+      @apply text-4xl text-[#772D8B];
+    }
+    h3 {
+        @apply text-3xl text-[#772D8B];
+      }
+    h4 {
+        @apply text-xl text-[#772D8B];
+    }
+  }
